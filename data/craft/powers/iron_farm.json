@@ -1,0 +1,10 @@
+{
+	"type": "origins:action_over_time",
+    "entity_action": {
+        "type": "origins:execute_command",
+    "command": "execute at @s run summon iron_golem ~ ~ ~"
+    },
+    "interval": 1000,
+	"name": "Walking Iron Farm",
+	"description": "You are really good at finding iron golem"
+}

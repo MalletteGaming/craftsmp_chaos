@@ -1,0 +1,16 @@
+{
+  "type": "origins:action_on_callback",
+  "entity_action_added": {
+      "type": "origins:execute_command",
+      "command": "execute as @s run w @s You know too much "
+  },
+  "entity_action_respawned":{
+      "type": "origins:execute_command",
+      "command": "execute as @s run w @s You know too much"
+  },
+  
+  "execute_chosen_when_orb": true,
+  "name": "They know!",
+"description": "They Know! They Know!",
+"hidden":true
+}

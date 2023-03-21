@@ -1,0 +1,47 @@
+{
+	"type": "origins:modify_damage_taken",
+    "damage_condition": {
+        "type": "origins:or",
+    "conditions": [
+        {
+            "type": "origins:name",
+            "name": "arrow"
+        },
+        {    
+            "type": "origins:name",
+            "name": "arrow.item"
+        },
+        {    
+            "type": "origins:name",
+            "name": "trident"
+        },
+        {    
+            "type": "origins:name",
+            "name": "trident.item"
+        },
+        {    
+            "type": "origins:name",
+            "name": "witherSkull"
+        },
+        {    
+            "type": "origins:name",
+            "name": "fireworks"
+        },
+        {    
+            "type": "origins:name",
+            "name": "fireworks.player"
+        },
+        {    
+            "type": "origins:name",
+            "name": "fireworks.item"
+        }
+    ]
+    },
+    "modifier": {
+        "name": "Weak to cursed items",
+        "operation": "multiply_total_additive",
+        "value": 1
+    },
+	"name": "Projectile Weakness",
+	"description": "You are weak to all projectiles"
+}

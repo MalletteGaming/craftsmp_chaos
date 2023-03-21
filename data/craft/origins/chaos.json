@@ -1,0 +1,14 @@
+{
+	"powers": [
+		"craft:iron_farm",
+		"craft:lava",
+		"craft:no_food",
+		"craft:mallette",
+		"craft:projectile_weakness"
+	],
+	"icon": "minecraft:lava_bucket",
+	"order": 10,
+	"impact": 0,
+	"name": "Craft Chaos",
+	"description": "Lava Pirate!"
+}
